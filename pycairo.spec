@@ -2,7 +2,7 @@
 
 Name: pycairo
 Version: 1.8.10
-Release: 6%{?dist}
+Release: 8%{?dist}
 License: MPLv1.1 or LGPLv2
 Group: Development/Languages
 Summary: Python bindings for the cairo library
@@ -51,6 +51,12 @@ find $RPM_BUILD_ROOT -name '*.la' | xargs rm -f
 %{_libdir}/pkgconfig/pycairo.pc
 
 %changelog
+* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 1.8.10-8
+- Mass rebuild 2014-01-24
+
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.8.10-7
+- Mass rebuild 2013-12-27
+
 * Thu Feb 14 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 1.8.10-6
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
